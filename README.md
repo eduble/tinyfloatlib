@@ -44,6 +44,7 @@ and run it:
 The library can handle 2 different integer sizes: 
 * 16bits (default: lower memory footprint)
 * 32bits (better precision)
+
 You can compile the library in 32bits-mode by modifying the INT_SIZE value in `float_arith.h`.
 
 ### Disabling functions
