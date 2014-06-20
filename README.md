@@ -18,12 +18,12 @@ int main(int argc, char **argv)
 	FLOAT f, f1000;
 	copy_int_to_float(1000, &f1000);
 
-	copy_int_to_float(12536, &f);		// f = 12536
+	copy_int_to_float(12536, &f);    // f = 12536
 
 	// f/f1000 -> f
-	divide(&f, &f1000, &f);			// f = 12.536
+	divide(&f, &f1000, &f);          // f = 12.536
 	// ln(f) -> f;
-	ln(&f, &f);				// f = ln(12.536)	
+	ln(&f, &f);                      // f = ln(12.536)	
 
 	print_float(&f, 4);
 	putchar('\n');
